@@ -6,6 +6,7 @@ $(document).ready(function(){
     })
 });
 
+$(function(){
 $('.first_slider').owlCarousel({
     items:1,
     loop:true,
@@ -15,7 +16,15 @@ $('.first_slider').owlCarousel({
     nav:true,
 
 });
+$('.slider_two').owlCarousel({
+    items:2,
+    loop:true,
+    center:true,
+    margin:10,
+    nav:true,
 
+});
+})
 
 
 var pauseButton = $('.play_Now'),
