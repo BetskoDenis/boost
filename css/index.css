@@ -427,16 +427,23 @@ h6{
 .tab_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-
 
 }
 
 .tab_content {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 16px;
+    max-height: 530px;
+    width: 100%;
 }
 
 .tab_content_item{
-
+    flex: 1 1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 550px;
 }
