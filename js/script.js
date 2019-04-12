@@ -14,6 +14,7 @@ $('.first_slider').owlCarousel({
     margin:10,
     autoplay:true,
     nav:true,
+    dots:false,
 
 
 });
@@ -21,9 +22,29 @@ $('.slider_two').owlCarousel({
     items:3,
     loop:true,
     margin:10,
+    dots:false,
     nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
 
 });
+    $('.left_info').owlCarousel({
+        items:1,
+        loop:true,
+
+        dots:true
+
+
+    });
 })
 
 
@@ -84,3 +105,5 @@ $(document).ready(function($) {
         $(selectTab).fadeIn();
     });
 });
+
+

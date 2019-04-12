@@ -36,3 +36,11 @@
         color: rgba(255, 255, 255, 1);
     }
 }
+
+@media(min-width: 320px) and (max-width: 800px){
+
+    .tab_content_item{
+      max-width: 100%;
+    }
+
+}
