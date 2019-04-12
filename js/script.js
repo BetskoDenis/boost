@@ -15,11 +15,11 @@ $('.first_slider').owlCarousel({
     autoplay:true,
     nav:true,
 
+
 });
 $('.slider_two').owlCarousel({
-    items:2,
+    items:3,
     loop:true,
-    center:true,
     margin:10,
     nav:true,
 
