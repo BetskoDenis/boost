@@ -107,3 +107,17 @@ $(document).ready(function($) {
 });
 
 
+$(document).ready(function(){
+    var owl = $('.owl-item');
+
+
+    $('.left_info').on('changed.owl.carousel', function(event) {
+
+if (owl.hasClass('active')){
+    var skills = $('.left_info_item').attr('data-href');
+    alert(skills);
+}
+
+    })
+
+})
