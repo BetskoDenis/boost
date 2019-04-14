@@ -107,17 +107,41 @@ $(document).ready(function($) {
 });
 
 
-$(document).ready(function(){
-    var owl = $('.owl-item');
+
+
+    $(document).ready(function(){
+        var owl = $('.owl-item');
 
 
     $('.left_info').on('changed.owl.carousel', function(event) {
 
 if (owl.hasClass('active')){
+
     var skills = $('.left_info_item').attr('data-href');
-    alert(skills);
-}
+//     //     proba = $('document.className'),
+        skillsjane =  $('.right_skills.jane').attr('data-href'),
+        skillsyuliy =  $('.right_skills.yuliy').attr('data-href'),
+        skillsvasiliy =  $('.right_skills.vasiliy').attr('data-href'),
 
+    skillsInfo = [skillsjane, skillsyuliy, skillsvasiliy];
+
+    for (var i=0; i<skillsInfo.length; ++i){
+        if(skills == skillsInfo[i]){
+            alert(skillsInfo[i])
+            // skillsInfo[i].css("display:block");
+        }
+    }
+//
+//      alert(skills);
+
+    //  alert(document.className)
+    // // if(skills == skillsInfo){
+    //     $('.right_skills').css('display', 'block');
+    }
+
+
+//}
+//
     })
-
+//
 })

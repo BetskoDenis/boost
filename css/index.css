@@ -535,7 +535,8 @@ h6{
     margin-bottom: 20px;
 }
 
-.right_skils{
+.right_skills{
+    display: none;
     flex: 1 1 320px;
     background-color: rgba(235, 235, 235, 1) ;
     height: 435px;
