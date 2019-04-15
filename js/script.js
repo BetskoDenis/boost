@@ -127,7 +127,8 @@ if (owl.hasClass('active')){
 
     for (var i=0; i<skillsInfo.length; ++i){
         if(skills == skillsInfo[i]){
-            alert(skillsInfo[i])
+            alert(skillsInfo[i]);
+            // skillsInfo[i].css('display', 'block');
             // skillsInfo[i].css("display:block");
         }
     }
