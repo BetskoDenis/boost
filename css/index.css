@@ -681,22 +681,6 @@ h6{
     transform: scale(1.02);
 }
 
-/*.posts_item:hover .posts_item_img:before {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /*bottom: 0;*/
-    /*left: 0;*/
-    /*height: 45px;*/
-    /*width: 45px;*/
-    /*border-radius: 50%;*/
-    /*background-color: red;*/
-    /*z-index: 2;*/
-/*}*/
-
-
-
 .posts_item_img_dot.one{
     display: none;
     position: absolute;
@@ -785,5 +769,96 @@ h6{
     margin-right: 12px;
 }
 
+.section_nine{
+    background-color: rgba(23, 31, 35, 1);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
 
+.chose_plan_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(23, 31, 35, 1);
+    width: 235px;
 
+}
+
+.chose_plan_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chose_plan_item_top{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.chose_plan_item_top p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.chose_plan_item_top span{
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.chose_plan_item_info{
+    background-color: rgba(31, 40, 44, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.chose_plan_item_info div{
+    display: flex;
+    margin-bottom: 19px;
+}
+
+.chose_plan_item_info_last{
+    margin-bottom: 75px !important;
+}
+
+.chose_plan_item_info span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.chose_plan_button{
+    background-color: rgba(232, 126, 93, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.chose_plan_item:hover  {
+    border: 1px solid rgba(232, 126, 93, 1);
+}
+
+.chose_plan_item:hover .chose_plan_item_info span{
+    color: rgba(232, 126, 93, 1);
+}
+
+.section_ten{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
