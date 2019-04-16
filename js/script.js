@@ -118,7 +118,7 @@ $(document).ready(function($) {
 if (owl.hasClass('active')){
 
     var skills = $('.left_info_item').attr('data-href');
-//     //     proba = $('document.className'),
+         proba = $('.right_skills').css('display'),
         skillsjane =  $('.right_skills.jane').attr('data-href'),
         skillsyuliy =  $('.right_skills.yuliy').attr('data-href'),
         skillsvasiliy =  $('.right_skills.vasiliy').attr('data-href'),
@@ -128,6 +128,8 @@ if (owl.hasClass('active')){
     for (var i=0; i<skillsInfo.length; ++i){
         if(skills == skillsInfo[i]){
             alert(skillsInfo[i]);
+            proba = $('.right_skills').css('display', 'flex');
+
             // skillsInfo[i].css('display', 'block');
             // skillsInfo[i].css("display:block");
         }
@@ -146,3 +148,27 @@ if (owl.hasClass('active')){
     })
 //
 })
+
+
+var sendMessage = $('.send_message');
+
+    function form(sendMessage){
+
+    }
+
+var buttonMap = $('.button_map');
+
+function map(selector) {
+    selector.on('click', function () {
+        var m = $('.maping');
+
+        if (m.css('display') == 'none') {
+         m =$('.maping').css('display','flex');
+
+        } else{
+            m =$('.maping').css('display','none');
+        }
+    })
+
+}
+map(buttonMap);

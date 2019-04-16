@@ -862,3 +862,122 @@ h6{
     display: flex;
     justify-content: center;
 }
+
+.info_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input_form_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input_form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+    flex-direction: column;
+
+}
+
+.input_form p{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.input_form span{
+    color: rgba(232, 126, 93, 1);
+}
+
+.top_input_form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: calc(15px + 1.9vw);
+}
+
+.input_name_block{
+    flex: 1 1 320px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.input_email_block{
+    flex: 1 1 320px;
+    width: 100%;
+}
+
+.input_name{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    outline:none;
+}
+
+.input_mail{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    outline:none;
+}
+
+.message{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    outline:none;
+    margin-bottom: calc(15px + 2.12vw);
+}
+
+.send_message{
+    background-color: rgba(232, 126, 93, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+
+.button_send_message{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_map{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.section_map h4{
+    color: rgba(255, 255, 255, 1);
+    margin-right: 15px;
+}
+
+.button_map{
+    transform: rotate(45deg);
+    border-top: none;
+    border-left: none;
+    border-right: 3px solid rgba(232, 126, 93, 1);
+    border-bottom: 3px solid rgba(232, 126, 93, 1);
+    width: 20px;
+    height: 20px;
+}
+
+.maping{
+    display: none;
+    justify-content: center;
+    width: 100%;
+    transition: all .5s;
+}
+
